@@ -1,0 +1,104 @@
+/** COMMON CSS STARTS HERE */
+
+:root{
+    --bg-color:white;
+    --textcolor:black;
+}
+
+.darkmode {
+
+    --bg-color:#080811;
+    --textcolor:white;
+    transition: 0.3s;
+
+}
+
+
+
+
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul.ol{
+    list-style: none;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+body{
+    font-family:"arial";
+    background-color: var(--bg-color);
+
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+/** COMMON CSS ENDS HERE */
+
+#wrapper{
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#wrapper h2{
+    font-size: 60px;
+    margin: 20px;
+    color: var(--textcolor);
+
+}
+
+#wrapper button{
+    width: 40px;
+    height: 40px;
+    outline: 1px solid red;
+    overflow: hidden;
+    border: none;
+}
+
+#wrapper button span{
+    width: 40px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    font-size: 20px;
+    transition: 0.25S;
+}
+
+#wrapper button .sun{
+    background-color: #ffda38;
+}
+
+#wrapper button .moon{
+    background-color: #080811;
+    color: white;
+}
+
+
+
+
+
